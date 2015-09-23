@@ -20,6 +20,7 @@ module Travis
       end
 
       def perform(*args)
+        p [self, args]
         new(*args).run
       end
     end
