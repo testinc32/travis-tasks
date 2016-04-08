@@ -10,6 +10,7 @@ module Travis
         def initialize(template, data)
           @template = template
           @data = data.deep_symbolize_keys
+          puts data[:build]
         end
 
         def interpolate
