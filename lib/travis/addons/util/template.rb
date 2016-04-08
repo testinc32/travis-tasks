@@ -36,6 +36,7 @@ module Travis
             message:               message,
             compare_url:           compare_url,
             build_url:             build_url,
+            pull_request_title:    data[:build][:pull_request_title],
             pull_request_url:      pull_request_url
           }
         end
