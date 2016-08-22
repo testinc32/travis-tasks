@@ -28,3 +28,4 @@ end
 group :production do
   gem 'foreman'
 end
+gem 'nokogiri', '>= 1.6.8'
